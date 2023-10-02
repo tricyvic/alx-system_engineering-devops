@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 10 /etc/passwd
+sed -n '12,21p' /etc/passwd
